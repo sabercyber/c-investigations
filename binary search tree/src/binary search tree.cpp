@@ -57,7 +57,7 @@ int main()
 		.insert(-100)
 		.insert(10);
 
-	 [test](){
+	 [&test](){
 		cout << "Test 1 ->"<< endl;
 		 if(findClosestValueInBst(&test, 79) == 100)
 			cout << "Test 1 Pass" << endl;
